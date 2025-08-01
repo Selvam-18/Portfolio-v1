@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'inter';
+}
+.btn{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+.btn:hover{
+  /* background-color: white;
+  color: black; */
+  transform: scale(1.1);
+}
+
+.card img{
+  /* background-color: aqua; */
+}
+
+.card img{
+  border-bottom: dotted white 1px;
+}
+
+
+.logo{
+  height: auto;
+  width: auto;
+}
+
+.logo:hover{
+  border: solid 3px white;
+}
+
+.carousal{
+  animation: newsFeed 30s ease-out infinite;
+}
+.carousal2{
+  animation: newsFeed2 60s ease-out infinite;
+}
+
+@keyframes newsFeed {
+  0%{
+    /* opacity: 0; */
+    transform: translateX(100%);
+  }
+  100%{
+    /* opacity: 1; */
+    transform: translateX(-100%);
+  
+  }
+}
+
+@keyframes newsFeed2 {
+  0%{
+    /* opacity: 0; */
+    transform: translateX(-100%);
+  }
+  100%{
+    /* opacity: 1; */
+    transform: translateX(100%);
+  
+  }
+}
+
+.icon{
+  color: white;
+  background-color: white;
+}
+ footer a{
+  font-size: larger;
+  /* background-color: aqua; */
+ }
+
+ .active-bar{
+
+   border-bottom: 3px solid white;
+ }
+
+ .navbar:hover{
+  color: white;
+  background-color: #1e293b;
+  border-radius: 5px;
+ }
+
+ .project-link:hover{
+  background-color: white;
+  color: #1e293b;
+  /* border-radius: ; */
+ }
