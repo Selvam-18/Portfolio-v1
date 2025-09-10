@@ -14,12 +14,14 @@ export default function Stats() {
   const techStack = [
     "js",
     "react",
+    "nextjs",
+    "typescript",
     "redux",
     "reactrouter",
     "tailwindcss",
     "nodejs",
     "git",
-    "npm",
+    "npm"
   ];
   return (
     <>
@@ -61,4 +63,5 @@ export default function Stats() {
     </>
   );
 }
+
 
