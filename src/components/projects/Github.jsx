@@ -33,7 +33,7 @@ export default function Github() {
     }, [])
     return(
         <>
-        <h1 className='max-sm:text-3xl lg:text-7xl mt-24'>GitHub Repositories</h1>
+        <h1 className='max-sm:text-3xl lg:text-7xl mt-24 text-center'>GitHub Repositories</h1>
         <div className="grid grid-cols-2 max-md:grid-cols-1 justify-evenly max-sm:justify-center w-full my-10  mb-20">
 
             {stats && stats.map((item) => 

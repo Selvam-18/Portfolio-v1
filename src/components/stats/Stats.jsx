@@ -23,7 +23,7 @@ export default function Stats() {
   ];
   return (
     <>
-      <section className="my-10  lg:h-screen " id="stats">
+      <section className="my-10  " id="stats">
         <h1 className="max-sm:text-3xl lg:text-7xl max-lg:text-7xl m-5 text-center">
           Current Stats
         </h1>
