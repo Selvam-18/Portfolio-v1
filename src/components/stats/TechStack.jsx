@@ -12,7 +12,7 @@ export default function TechStack({stackName}) {
                 initial='hidden'
                 animate='visible'
                 whileHover={{y: -20}}
-                className='overflow-hidden'
+                className='overflow-hidden flex justify-center'
             >
                 <StackIcon name={stackName} variant="dark" className='w-24 h-24 sm:w-24 sm:h-24 lg:w-48 lg:h-48 p-2'/>
                 {/* <StackIcon name={stackName} variant="dark"/>  */}
@@ -20,4 +20,5 @@ export default function TechStack({stackName}) {
             </motion.div>
         </>
     )
+
 }
